@@ -1,0 +1,5 @@
+## GitHub Pages 使用 Cayman 主题渲染 Markdown 作品集
+## 无 index.html 时，GitHub Pages 会自动使用 README.md 作为首页
+title: 殷刚 · 作品集
+description: 自动化测试系统研发工程师 · C#/.NET 上位机 · 高速数据采集 · 微服务架构
+theme: jekyll-theme-cayman
