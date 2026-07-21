@@ -36,12 +36,16 @@
 **上位机 / 桌面开发**
 
 ![WinForm](https://img.shields.io/badge/WinForm-GDI%2B%20%2F%20DevExpress-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![WPF](https://img.shields.io/badge/WPF-MVVM-0078D6?style=flat-square&logo=windows&logoColor=white)
+![WPF](https://img.shields.io/badge/WPF-桌面开发-0078D6?style=flat-square&logo=windows&logoColor=white)
 ![VTK](https://img.shields.io/badge/VTK-三维可视化-8A2BE2?style=flat-square)
 
-**通信协议**
+**通信协议 / 硬件接口**
 
-`串口` · `TCP/IP` · `UDP` · `Modbus RTU/TCP/UDP` · `CAN / CANFD（周立功、广成）`
+`串口` · `TCP/IP` · `UDP` · `Modbus RTU/TCP/UDP` · `CAN / CANFD（周立功、广成）` · `PLC（西门子 S7）` · `熟悉 EtherCAT 总线架构`
+
+**图像采集 / 处理**
+
+`工业相机 / 摄像头图像采集` · `OpenCV（二维码识别等图像处理）`
 
 **后端 / 架构 / 中间件**
 
@@ -71,6 +75,7 @@
 > 面向工业自动化测试场景的高速数据采集系统，支持多种工业通信协议，实现采集配置、实时解析显示与后处理分析。负责从架构设计到交付的全部工作。
 
 - 设计多协议通信驱动层（串口 / TCP / UDP / Modbus RTU/TCP/UDP / CAN / CANFD），统一设备接入接口，支持 **10+ 类型设备即插即用**
+- 对接 **PLC（西门子 S7）** 读写与**工业相机/摄像头图像采集**，集成 OpenCV 实现二维码识别，实现设备参数配置、实时监控与联动
 - 实现生产者-消费者多线程采集架构（队列 + 委托），解决高速数据场景下的**零丢包与实时刷新**问题
 - 开发数据后处理模块：波形回放、数据筛选、异常标记与统计分析报表导出，显著提升测试效率
 - 封装 C++ 高性能信号处理算法，通过 **P/Invoke** 集成至 C# 主程序，处理性能提升 **60%+**
@@ -119,7 +124,7 @@
 
 | 时间 | 公司 | 职位 |
 | --- | --- | --- |
-| 2022.10 — 至今 | 武汉方创数据科技有限公司 | 上位机 / 自动化测试系统开发工程师 |
+| 2022.10 — 至今 | 武汉普创数据科技有限公司 | 上位机 / 自动化测试系统开发工程师 |
 | 2017.06 — 2022.10 | 北京巴特系统工程有限责任公司 | .NET 开发工程师（架构师） |
 
 **核心贡献**
